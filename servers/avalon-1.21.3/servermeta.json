@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/avalon/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "avalon (Minecraft 1.21.3)",
+    "description": "avalon Running Minecraft 1.21.3 (Fabric v0.16.13)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "210.117.43.102",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.16.13"
+  },
+  "untrackedFiles": []
+}

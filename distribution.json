@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "avalon-1.21.3",
+      "name": "avalon (Minecraft 1.21.3)",
+      "description": "avalon Running Minecraft 1.21.3 (Fabric v0.16.13)",
+      "icon": "https://media.discordapp.net/attachments/1286639177634549782/1362372799750082662/13d17eb9e68761ed.png?ex=6802280b&is=6800d68b&hm=759faa9acd212a0beb6e080154a89def3ad2a645dd00125c91f0fd7c7d977981&=&format=webp&quality=lossless&width=967&height=967",
+      "version": "1.0.0",
+      "address": "210.117.43.102",
+      "minecraftVersion": "1.21.3",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.13",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387633,
+            "MD5": "5cffbeb4848a035ce735295b1cc0e7fa",
+            "url": "https://kohber.github.io/avalon/repo/lib/net/fabricmc/fabric-loader/0.16.13/fabric-loader-0.16.13.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.3-fabric-0.16.13",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "0c175821c83ca02418057bc370c36e35",
+                "url": "https://kohber.github.io/avalon/repo/versions/1.21.3-fabric-0.16.13/1.21.3-fabric-0.16.13.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://kohber.github.io/avalon/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://kohber.github.io/avalon/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://kohber.github.io/avalon/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://kohber.github.io/avalon/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://kohber.github.io/avalon/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://kohber.github.io/avalon/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.3",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 693060,
+                "MD5": "bc6edae1133bf23325898da22d9eff90",
+                "url": "https://kohber.github.io/avalon/repo/lib/net/fabricmc/intermediary/1.21.3/intermediary-1.21.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:cocoainput:1.20.5-forge-4.4.1-EXPERIMENTAL@jar",
+          "name": "CocoaInput",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 138391,
+            "url": "https://kohber.github.io/avalon/servers/avalon-1.21.3/fabricmods/required/CocoaInput-1.20.5-forge-4.4.1-EXPERIMENTAL.jar",
+            "MD5": "14602e3c09be5a20a7e88082c682a370"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.112.1+1.21.3@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2380009,
+            "url": "https://kohber.github.io/avalon/servers/avalon-1.21.3/fabricmods/required/fabric-api-0.112.1+1.21.3.jar",
+            "MD5": "2b5a0a8ae57bbdc4d93bed0dba4ba2a1"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.0+mc1.21.3@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2660855,
+            "url": "https://kohber.github.io/avalon/servers/avalon-1.21.3/fabricmods/required/iris-fabric-1.8.0+mc1.21.3.jar",
+            "MD5": "783602e558c53a1d224793efe80492e6"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.0+mc1.21.3@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1280198,
+            "url": "https://kohber.github.io/avalon/servers/avalon-1.21.3/fabricmods/required/sodium-fabric-0.6.0+mc1.21.3.jar",
+            "MD5": "c378bc5566e09f1e3127191be63fd85e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:voicechat:forge-1.21.3-2.5.29@jar",
+          "name": "Voicechat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6142667,
+            "url": "https://kohber.github.io/avalon/servers/avalon-1.21.3/fabricmods/required/voicechat-forge-1.21.3-2.5.29.jar",
+            "MD5": "77f9fd5e1bd210528ea0c5087f51732b"
+          }
+        }
+      ]
+    }
+  ]
+}
